@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESPE | Universidad de las Fuerzas Armadas | Sangolquí</title>
+    <link rel="icon" href="assets/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="librerias/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="access">
+        <button id="accessBtn"><i class="fa-solid fa-universal-access"></i></button>
+        <div class="access-menu" id="accessMenu">
+            <button id="toggleBW">Blanco/Negro</button>
+            <button id="toggleDark">Dark</button>
+            <button id="toggleText">Aumentar Texto</button>
+        </div>
+    </div>
+
+    <!-- ------------------- HEADER ------------------- -->
+    <header class="header">
+        <div class="logo">
+            <img src="assets/espe.png" class="img-logo" alt="ESPE Logo">
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-body">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link" href="#">QUIENES SOMOS</a>
+                <a class="nav-link" href="#">OFERTA ACADÉMICA</a>
+                <a class="nav-link" href="#">ADMISIÓN</a>
+                <a class="nav-link" href="#">INVESTIGACIÓN</a>
+                <a class="nav-link" href="#">VINCULACIÓN</a>
+                <a class="nav-link" href="#">TRANSPARENCIA</a>
+                <a class="nav-link" href="#">CONTÁCTANOS</a>
+                <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i></a>
+                <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header> 
+
+    <!-- ------------------- SLIDER ------------------- -->
+    <section class="slider">
+        <aside>
+			<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="assets/slider1.png" class="d-block w-100 slider1" alt="ESPE">
+			      <div class="carousel-caption d-md-block">
+
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="assets/slider2.gif" class="d-block w-100 slider2"  alt="ESPE">
+			      <div class="carousel-caption d-md-block">
+			        <h1>Campus matriz, Sangolquí</h1>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="assets/slider3.png" class="d-block w-100 slider3" alt="ESPE">
+			      <div class="carousel-caption d-md-block">
+			        <h1>Campus matriz, Sangolquí</h1>
+			      </div>
+			    </div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+		</aside>
+    </section>
+
+
+    <!-- ------------------- SERVICIOS ------------------- -->
+    <section class="services">
+        <h1 class="heading">SERVICIOS</h1>
+		<div class="service-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h4>CENTRO DE POSTGRADOS</h4>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h4>EDUCACIÓN CONTÍNUA</h4>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="fa-solid fa-user-pen"></i>
+                    <h4>INSTITUTO DE IDIOMAS</h4>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h4>BUZÓN DE QUEJAS Y FELICITACIONES</h4>
+                </div>
+            </div>
+		</div>
+	</section>
+
+    <section class="services">
+		<div class="service-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="fa-solid fa-fingerprint"></i>
+                    <h4>ACCESIBILIDAD</h4>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="fa-solid fa-list-ul"></i>
+                    <h4>FORMATOS</h4>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="fa-regular fa-address-card"></i>
+                    <h4>CONTRATACIÓN PÚBLICA</h4>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="fa-regular fa-handshake"></i>
+                    <h4>SERVICIOS UNIVERSITARIOS</h4>
+                </div>
+            </div>
+		</div>
+	</section>
+
+    <!-- ------------------- ALUMNO ------------------- -->
+    <section class="alumno">
+        <h1 class="heading">ALUMNO</h1>
+		<div class="alumno-container">
+            <div class="alumno-box">
+                <div class="alumno-info">
+                    <img class="img-alumno" src="assets/icono1.png" alt="icono espe">
+                    <h4>MI ESPE</h4>
+                </div>
+            </div>
+            <div class="alumno-box">
+                <div class="alumno-info">
+                    <img class="img-alumno" src="assets/icono2.png" alt="icono espe">
+                    <h4>ALUMNI</h4>
+                </div>
+            </div>
+            <div class="alumno-box">
+                <div class="alumno-info">
+                    <img class="img-alumno" src="assets/icono3.png" alt="icono espe">
+                    <h4>BECAS</h4>
+                </div>
+            </div>
+            <div class="alumno-box">
+                <div class="alumno-info">
+                    <img class="img-alumno" src="assets/icono4.png" alt="icono espe">
+                    <h4>CALENDARIO ACADÉMICO</h4>
+                </div>
+            </div>
+            <div class="alumno-box">
+                <div class="alumno-info">
+                    <img class="img-alumno" src="assets/icono5.png" alt="icono espe">
+                    <h4>CLUBES</h4>
+                </div>
+            </div>
+            <div class="alumno-box">
+                <div class="alumno-info">
+                    <img class="img-alumno" src="assets/icono6.png" alt="icono espe">
+                    <h4>REVISTAS</h4>
+                </div>
+            </div>
+            <div class="alumno-box">
+                <div class="alumno-info">
+                    <img class="img-alumno" src="assets/icono7.png" alt="icono espe">
+                    <h4>ESPE EN EL MUNDO</h4>
+                </div>
+            </div>
+            <div class="alumno-box">
+                <div class="alumno-info">
+                    <img class="img-alumno" src="assets/icono8.png" alt="icono espe">
+                    <h4>OFERTA ACADÉMICA 2024</h4>
+                </div>
+            </div>
+            <div class="alumno-box">
+                <div class="alumno-info">
+                    <img class="img-alumno" src="assets/icono9.png" alt="icono espe">
+                    <h4>PROFESORES Y ESTUDIANTES</h4>
+                </div>
+            </div>
+		</div>
+	</section>
+
+    <!-- ------------------- CALENDARIO ------------------- -->
+    <h1 class="heading-calendar">CALENDARIO</h1>
+    <section class="calendario container-fluid">
+        <div class="cronograma col-lg-4">
+            <h1 class="crg-titulo"><i class="fa-solid fa-calendar-days"></i> PRÓXIMOS EVENTOS</h1>
+            <p class="crg-subtitulo">No hay eventos nuevos.</p>
+            <button class="btn btn-success crg-btn">Ver calendario <i class="fa-solid fa-right-long"></i></button>
+        </div>
+        <aside class="col-lg-8">
+            <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/crono1.jpeg" class="d-block w-100 img-calendar" alt="Eventos ESPE">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/crono2.jpg" class="d-block w-100 img-calendar" alt="Eventos ESPE">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/crono3.jpg" class="d-block w-100 img-calendar" alt="Eventos ESPE">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/crono4.jpeg" class="d-block w-100 img-calendar" alt="Eventos ESPE">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/crono5.jpeg" class="d-block w-100 img-calendar" alt="Eventos ESPE">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/crono6.jpeg" class="d-block w-100 img-calendar" alt="Eventos ESPE">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/crono7.png" class="d-block w-100 img-calendar" alt="Eventos ESPE">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/crono8.png" class="d-block w-100 img-calendar" alt="Eventos ESPE">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/crono9.jpeg" class="d-block w-100 img-calendar" alt="Eventos ESPE">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </aside>
+    </section>
+
+    <!-- ------------------- SITIOS DE INTERÉS ------------------- -->
+    <section class="interes">
+        <h1 class="heading">SITIOS DE INTERÉS</h1>
+		<div class="interes-container">
+            <div class="interes-box">
+                <div class="interes-info">
+                    <img class="img-interes" src="assets/interes1.png" alt="Eventos ESPE">
+                </div>
+            </div>
+            <div class="interes-box">
+                <div class="interes-info">
+                    <img class="img-interes" src="assets/interes2.png" alt="Eventos ESPE">
+                </div>
+            </div>
+            <div class="interes-box">
+                <div class="interes-info">
+                    <img class="img-interes" src="assets/interes3.png" alt="Eventos ESPE">
+                </div>
+            </div>
+            <div class="interes-box">
+                <div class="interes-info">
+                    <img class="img-interes" src="assets/interes4.png" alt="Eventos ESPE">
+                </div>
+            </div>
+            <div class="interes-box">
+                <div class="interes-info">
+                    <img class="img-interes" src="assets/interes5.png" alt="Eventos ESPE">
+                </div>
+            </div>
+            <div class="interes-box">
+                <div class="interes-info">
+                    <img class="img-interes" src="assets/interes6.png" alt="Eventos ESPE">
+                </div>
+            </div>
+		</div>
+	</section>
+
+    <!-- ------------------- TV Y EVENTOS ------------------- -->
+    <section class="container-fluid tv-eventos">
+        <div class="row">
+            <div class="tv col-lg-6 col-md-12">
+                <h1><i class="fa-solid fa-tv"></i> ESPE - TV</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vSyUAe2DfzM?si=UGkhZQmyj5IKMLGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="tv col-lg-6 col-md-12">
+                <h1><i class="fa-solid fa-calendar-check"></i> EVENTOS ESPE - 2024</h1>
+                <aside class="eventos">
+                    <div id="carouselExampleAutoplaying3" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="assets/evento1.jpeg" class="d-block w-100 img-eventos" alt="Eventos ESPE">
+                          <div class="carousel-caption d-md-block">
+                            <h1>Firma de convenio entre ESPEU y MIDENA.</h1>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/evento2.jpg" class="d-block w-100 img-eventos"  alt="Eventos ESPE">
+                          <div class="carousel-caption d-md-block">
+                            <h1>Caminata por la Vida 5k</h1>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/evento3.jpg" class="d-block w-100 img-eventos" alt="Eventos ESPE">
+                          <div class="carousel-caption d-md-block">
+                            <h1>SENESCYT reconoce a revista Maskay</h1>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+     <!-- ------------------- CAROUSEL ------------------- -->
+    
+    <section class="wrapper">
+        <div class="carousel-wrapper">
+            <div class="carousel">
+                <div class="item"><img class="img-carousel" src="assets/sitio1.jpg" alt="Organizaciones"></div>
+                <div class="item"><img class="img-carousel" src="assets/sitio2.jpg" alt="Organizaciones"></div>
+                <div class="item"><img class="img-carousel" src="assets/sitio3.jpg" alt="Organizaciones"></div>
+                <div class="item"><img class="img-carousel" src="assets/sitio4.jpg" alt="Organizaciones"></div>
+                <div class="item"><img class="img-carousel" src="assets/sitio5.jpg" alt="Organizaciones"></div>
+                <div class="item"><img class="img-carousel" src="assets/sitio1.jpg" alt="Organizaciones"></div>
+                <div class="item"><img class="img-carousel" src="assets/sitio2.jpg" alt="Organizaciones"></div>
+                <div class="item"><img class="img-carousel" src="assets/sitio3.jpg" alt="Organizaciones"></div>
+                <div class="item"><img class="img-carousel" src="assets/sitio4.jpg" alt="Organizaciones"></div>
+                <div class="item"><img class="img-carousel" src="assets/sitio5.jpg" alt="Organizaciones"></div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="librerias/fo.js"></script>
+    <script src="js/index.js"></script>
+    <!-- <script type="text/javascript" src="librerias/jquery.min.js"></script> -->
+    <script src="librerias/fo.js"></script>
+    <script src="librerias/bootstrap.bundle.min.js"></script>
+</body>
+</html>
